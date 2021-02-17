@@ -25,11 +25,11 @@ class App extends React.Component {
     }
     onItemClick = (event) => {
         event.item.selected = !event.item.selected;
-        this.forceUpdate();
+        //this.forceUpdate();
     }
     onExpandChange = (event) => {
         event.item.expanded = !event.item.expanded;
-        this.forceUpdate();
+        //this.forceUpdate();
     }
 }
 
