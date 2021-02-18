@@ -1,6 +1,6 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
-
+import styled from 'styled-components'
 import { TreeView } from '@progress/kendo-react-treeview';
 
 const tree = [{
@@ -11,10 +11,12 @@ const tree = [{
         { text: 'Bed Linen' }, { text: 'Curtains & Blinds' }, { text: 'Carpets' }]
 }];
 
+const StyledTree1 = styled(TreeView)`background-color: yellow; font-size: 2.5em`;
+
 class App extends React.Component {
     render() {
         return (
-            <TreeView
+            <StyledTree1
                 data={tree}
                 expandIcons={true}
                 onExpandChange={this.onExpandChange}
