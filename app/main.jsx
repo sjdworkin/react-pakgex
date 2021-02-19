@@ -46,7 +46,7 @@ class AgendaView extends React.Component {
     render() {
         return (
             <StyledTree1
-                data={agendaContent2.TOC}
+                data={agendaContent.TOC}
                 textField='Title'
                 expandIcons={true}
                 onExpandChange={this.onExpandChange}
