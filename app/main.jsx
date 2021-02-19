@@ -3,7 +3,9 @@ import * as ReactDOM from 'react-dom'
 import styled from 'styled-components'
 import { TreeView } from '@progress/kendo-react-treeview';
 
-const agendaContent = 
+import agendaContent from './agenda.json';
+
+const agendaContentX = 
 {
   Title: "PRC 11/19/20",
   TOC: [
