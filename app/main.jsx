@@ -4,16 +4,16 @@ import styled from 'styled-components'
 import { TreeView } from '@progress/kendo-react-treeview';
 
 //import agendaContent from './agenda.json';
-//import xyz from "./agenda.json"
+import xyz from "./agenda.json"
 
-//const agendaContent2 = xyz;
+const agendaContent2 = xyz;
 
 const agendaContent = 
 {
   Title: "PRC 11/19/20",
   TOC: [
     {
-      Title: "Agenda"
+      Title: "AgendaX"
     },
     {
       Title: "ENFORCEMENT BUREAU REPORTS/ADMINISTRATIVE OFFICE ITEMS",
