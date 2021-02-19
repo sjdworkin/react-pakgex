@@ -1,0 +1,30 @@
+const contents = {
+  Title: "PRC 11/19/20",
+  TOC: [
+    {
+      Title: "Agenda"
+    },
+    {
+      Title: "ENFORCEMENT BUREAU REPORTS/ADMINISTRATIVE OFFICE ITEMS",
+      expanded: true,
+      items: [
+        {
+          Title: "Collin, Robert D 25MA04353300",
+          items: [{ Title: "EB Report" }]
+        },
+        {
+          Title: "Schneider, Barbara P 25MA04557600",
+          items: [{ Title: "EB Report" }]
+        }
+      ]
+    },
+    {
+      Title: "Decor",
+      items: [
+        { Title: "Bed Linen" },
+        { Title: "Curtains & Blinds" },
+        { Title: "Carpets" }
+      ]
+    }
+  ]
+};
