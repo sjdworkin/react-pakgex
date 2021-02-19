@@ -4,9 +4,9 @@ import styled from 'styled-components'
 import { TreeView } from '@progress/kendo-react-treeview';
 
 //import agendaContent from './agenda.json';
-import xyz from "./agenda.json"
+//import xyz from "./agenda.json"
 
-const agendaContent2 = xyz;
+//const agendaContent2 = xyz;
 
 const agendaContent = 
 {
