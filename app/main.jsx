@@ -10,7 +10,7 @@ const agendaContent =
   Title: "PRC 11/19/20",
   TOC: [
     {
-      Title: "AgendaX"
+      Title: "Agenda"
     },
     {
       Title: "ENFORCEMENT BUREAU REPORTS/ADMINISTRATIVE OFFICE ITEMS",
