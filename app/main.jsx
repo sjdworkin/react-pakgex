@@ -45,7 +45,7 @@ class AgendaView extends React.Component {
     render() {
         return (
             <div>
-            <p>{agendaContent3raw.toString().substr(0,10)}</p>
+            <p>debug output goes here</p>
             <StyledTree1
                 data={agendaContent2.TOC}
                 textField='Title'
