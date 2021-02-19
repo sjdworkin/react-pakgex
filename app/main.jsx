@@ -4,6 +4,9 @@ import styled from 'styled-components'
 import { TreeView } from '@progress/kendo-react-treeview';
 
 //import agendaContent from './agenda.json';
+import xyz from "./agenda.json"
+
+const agendaContent2 = xyz;
 
 const agendaContent = 
 {
@@ -27,7 +30,7 @@ const agendaContent =
       ]
     },
     {
-      Title: "Decor",
+      Title: "OIFP & DOH REFERRALS",
       items: [
         { Title: "Bed Linen" },
         { Title: "Curtains & Blinds" },
@@ -43,7 +46,7 @@ class AgendaView extends React.Component {
     render() {
         return (
             <StyledTree1
-                data={agendaContent.TOC}
+                data={agendaContent2.TOC}
                 textField='Title'
                 expandIcons={true}
                 onExpandChange={this.onExpandChange}
