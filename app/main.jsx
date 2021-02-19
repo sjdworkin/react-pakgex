@@ -3,21 +3,46 @@ import * as ReactDOM from 'react-dom'
 import styled from 'styled-components'
 import { TreeView } from '@progress/kendo-react-treeview';
 
-const tree = [{
-    text: 'Furniture', expanded: true, items: [
-        { text: 'Tables & Chairs' }, { text: 'Sofas' }, { text: 'Occasional Furniture' }]
-}, {
-    text: 'Decor', items: [
-        { text: 'Bed Linen' }, { text: 'Curtains & Blinds' }, { text: 'Carpets' }]
-}];
+const agendaContent = 
+{
+  Title: "PRC 11/19/20",
+  TOC: [
+    {
+      Title: "Agenda"
+    },
+    {
+      Title: "ENFORCEMENT BUREAU REPORTS/ADMINISTRATIVE OFFICE ITEMS",
+      expanded: true,
+      items: [
+        {
+          Title: "Collin, Robert D 25MA04353300",
+          items: [{ Title: "EB Report" }]
+        },
+        {
+          Title: "Schneider, Barbara P 25MA04557600",
+          items: [{ Title: "EB Report" }]
+        }
+      ]
+    },
+    {
+      Title: "Decor",
+      items: [
+        { Title: "Bed Linen" },
+        { Title: "Curtains & Blinds" },
+        { Title: "Carpets" }
+      ]
+    }
+  ]
+};
 
-const StyledTree1 = styled(TreeView)`background-color: yellow; font-size: 2.5em`;
+const StyledTree1 = styled(TreeView)`background-color: yellow; font-size: 1.5em`;
 
-class App extends React.Component {
+class AgendaView extends React.Component {
     render() {
         return (
             <StyledTree1
-                data={tree}
+                data={agendaContent.TOC}
+                textField='Title'
                 expandIcons={true}
                 onExpandChange={this.onExpandChange}
                 onItemClick={this.onItemClick}
@@ -36,6 +61,6 @@ class App extends React.Component {
 }
 
 ReactDOM.render(
-    <App />,
+    <AgendaView />,
     document.querySelector('my-app')
 );

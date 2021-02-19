@@ -1,4 +1,4 @@
-const contents = {
+{
   Title: "PRC 11/19/20",
   TOC: [
     {
@@ -27,4 +27,4 @@ const contents = {
       ]
     }
   ]
-};
+}
