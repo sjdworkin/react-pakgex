@@ -504,11 +504,12 @@ const StyledTree1 = styled(TreeView)`
 
 class AgendaView extends React.Component {
   render() {
+    let agendaContent2 = require('./agenda.json');
     return (
       <div>
         <p>debug output goes here</p>
         <StyledTree1
-          data={agendaContent.TOC}
+          data={agendaContent2.TOC}
           textField="Title"
           expandIcons={true}
           onExpandChange={this.onExpandChange}
